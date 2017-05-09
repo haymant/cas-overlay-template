@@ -59,6 +59,11 @@
     </build>
 
     <dependencies>
+<dependency>
+     <groupId>org.apereo.cas</groupId>
+     <artifactId>cas-server-support-ldap</artifactId>
+     <version>${cas.version}</version>
+</dependency>
         <dependency>
             <groupId>org.apereo.cas</groupId>
             <artifactId>cas-server-webapp</artifactId>

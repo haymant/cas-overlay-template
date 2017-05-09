@@ -90,7 +90,7 @@
         <AsyncLogger name="com.ryantenney.metrics" level="warn" />
         <AsyncLogger name="net.jradius" level="warn" />
         <AsyncLogger name="org.openid4java" level="warn" />
-        <AsyncLogger name="org.ldaptive" level="warn" />
+        <AsyncLogger name="org.ldaptive" level="debug" />
         <AsyncLogger name="com.hazelcast" level="warn" />
         <AsyncLogger name="org.jasig.spring" level="warn" />
 
