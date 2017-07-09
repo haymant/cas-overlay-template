@@ -31,7 +31,7 @@ function debug() {
 }
 
 function run() {
-	package && java -jar target/cas.war 
+	package && java -Xms 128M -Xmx256m -jar target/cas.war 
 }
 
 if [ $# -eq 0 ]; then
