@@ -34,6 +34,11 @@ function run() {
 	package && java -Xms128m -Xmx256m -jar target/cas.war 
 }
 
+function exe() {
+  java -Xms128m -Xmx256m -jar target/cas.war
+}
+
+
 if [ $# -eq 0 ]; then
     echo -e "No commands provided. Defaulting to [run]\n"
     run
@@ -62,6 +67,9 @@ case "$1" in
     ;;
 "run")
     run "$@"
+    ;;
+"exe")
+    exe "$@"
     ;;
 *)
     help
