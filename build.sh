@@ -35,6 +35,9 @@ function run() {
 }
 
 function exe() {
+  if [ -z "$RUN_SNAPSHOT" ]; then
+    package
+  fi
   java -Xms128m -Xmx256m -jar target/cas.war
 }
 
